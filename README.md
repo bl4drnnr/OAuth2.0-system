@@ -1,3 +1,11 @@
+# Table of Contents
+1. [OAuth2.0 description](#OAuth2.0-monorepository-system)
+2. [Roles or terminology](#roles-or-terminology)
+3. [Flows or grant types](#flows-or-grant-types)
+4. [Authorization code flow description](#authorization-code-flow-description)
+5. [Project description](#project-description)
+6. [References and contact](#references-and-contact)
+
 # OAuth2.0 monorepository system
 
 **The OAuth 2.0 authorization framework** - is a protocol that allows a user to grant a third-party website or application access to the user's protected resources, without necessarily revealing their long-term credentials or even their identity.
@@ -5,9 +13,6 @@
 _Auth_ in the name stands for _authorization_, not _authentication_.
 
 **Authentication verifies the identity of a user or service, and authorization determines their access rights.**
-
-
-# Introduction
 
 ## Roles or terminology
 
@@ -42,7 +47,7 @@ Current project's system has been implemented using [Authorization Code Flow](ht
 Below step-by-step authorization code flow description can be found.
 
 
-# Project description
+## Project description
 
 
 ### References and contact
