@@ -46,14 +46,23 @@ Current project's system has been implemented using [Authorization Code Flow](ht
 
 Below step-by-step authorization code flow description can be found.
 
+The high level overview is this:
+
+- Create a log-in link with the app’s client ID, redirect URL, state, and PKCE code challenge parameters.
+- The user sees the authorization prompt and approves the request.
+- The user is redirected back to the app’s server with an auth code.
+- The app exchanges the auth code for an access token.
 
 ## Project description
 
+Project has been constructed with all 3 parts - **Client**, **Authorization Server**, **Resource Server**.
+Without using third-party provider for **Authorization Server** or/and **Resource Server** (by **Google API** or **Auth0**).
 
 ### References and contact
 
 - [OAuth 2.0 Authorization framework documentation by Auth0](https://auth0.com/docs/authenticate/protocols/oauth)
 - [More about OAuth 2.0 by Auth0](https://auth0.com/docs/get-started/authentication-and-authorization-flow/which-oauth-2-0-flow-should-i-use)
+- [Example flow](https://www.oauth.com/oauth2-servers/server-side-apps/example-flow/)
 - Developer contact - [bl4drnnr@protonmail.com](mailto:bl4drnnr@protonmail.com)
 
 Project is [MIT licensed](LICENSE).
