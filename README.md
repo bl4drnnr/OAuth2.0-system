@@ -6,7 +6,6 @@ _Auth_ in the name stands for _authorization_, not _authentication_.
 
 **Authentication verifies the identity of a user or service, and authorization determines their access rights.**
 
----
 
 # Introduction
 
@@ -19,7 +18,6 @@ An OAuth 2.0 flow has the following roles:
 - **Client**: Application requesting access to a protected resource on behalf of the Resource Owner.
 - **Authorization Server**: Server that authenticates the Resource Owner and issues access tokens after getting proper authorization. In this case, Auth0.
 
----
 
 ## Flows or grant types
 
@@ -38,17 +36,14 @@ or read [An introduction to OAuth 2 by DigitalOcean](https://www.digitalocean.co
 
 Current project's system has been implemented using [Authorization Code Flow](https://auth0.com/docs/get-started/authentication-and-authorization-flow/authorization-code-flow), the most secure of all flows.
 
----
 
 ## Authorization code flow description
 
 Below step-by-step authorization code flow description can be found.
 
----
 
 # Project description
 
----
 
 ### References and contact
 
