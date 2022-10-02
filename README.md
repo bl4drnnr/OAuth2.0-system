@@ -29,9 +29,9 @@ An OAuth 2.0 flow has the following roles:
 Also, there are a couple of flows (**grant types**) with different implementations and purposes of use.
 
 OAuth 2.0 defines four flows to get an access token. These flows are called grant types.
-**[Deciding which one is suited for your case](https://auth0.com/docs/get-started/authentication-and-authorization-flow/which-oauth-2-0-flow-should-i-use)**depends mostly on your application type.
+[**Deciding which one is suited for your case**](https://auth0.com/docs/get-started/authentication-and-authorization-flow/which-oauth-2-0-flow-should-i-use)depends mostly on your application type.
 
-- **[Authorization Code Flow](https://auth0.com/docs/get-started/authentication-and-authorization-flow/authorization-code-flow)**: used by Web Apps executing on a server. This is also used by mobile apps, using the**[Proof Key for Code Exchange (PKCE) technique](https://auth0.com/docs/get-started/authentication-and-authorization-flow/authorization-code-flow-with-proof-key-for-code-exchange-pkce)**.
+- **[Authorization Code Flow](https://auth0.com/docs/get-started/authentication-and-authorization-flow/authorization-code-flow)**: used by Web Apps executing on a server. This is also used by mobile apps, using the [**Proof Key for Code Exchange (PKCE) technique**](https://auth0.com/docs/get-started/authentication-and-authorization-flow/authorization-code-flow-with-proof-key-for-code-exchange-pkce).
 - **[Implicit Flow with Form Post](https://auth0.com/docs/get-started/authentication-and-authorization-flow/implicit-flow-with-form-post)**: used by JavaScript-centric apps (Single-Page Applications) executing on the user's browser.
 - **[Client Credentials Flow](https://auth0.com/docs/get-started/authentication-and-authorization-flow/client-credentials-flow)**: used for machine-to-machine communication.
 - **[Resource Owner Password Flow](https://auth0.com/docs/get-started/authentication-and-authorization-flow/resource-owner-password-flow)**: used by highly-trusted apps.
