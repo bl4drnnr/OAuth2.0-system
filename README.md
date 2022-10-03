@@ -53,6 +53,16 @@ The high level overview is this:
 - The user is redirected back to the app’s server with an auth code.
 - The app exchanges the auth code for an access token.
 
+Because regular web apps are server-side apps where the source code is not publicly exposed, they can use the Authorization Code Flow, which exchanges an Authorization Code for a token. Your app must be server-side because during this exchange, you must also pass along your application's Client Secret, which must always be kept secure, and you will have to store it in your client.
+
+1. **Resource owner** tells the **client** to access data on **resource server**.
+2. **Client** goes to **authorization server** in order to obtain access.
+3. **Authorization server** goes to **resource owner** to ask for permission for data, that **clients** asks for.
+4. **Resource owner** approve or reject this request.
+5. **Authorization server** sends the authorization token to **client**.
+6. **Client** exchange this token to actual access token.
+7. **Client** with access token goes to **Resource Server** and gets data.
+
 ## Project description
 
 Project has been constructed with all 3 parts - **Client**, **Authorization Server**, **Resource Server**.
