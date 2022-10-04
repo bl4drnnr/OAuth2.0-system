@@ -8,6 +8,7 @@ client/dist
 client/tmp
 client/out-tsc
 client/bazel-out
+client/package-lock.json
 
 # Node
 client/node_modules
