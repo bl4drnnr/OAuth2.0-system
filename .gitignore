@@ -24,3 +24,20 @@ client/libpeerconnection.log
 client/testem.log
 client/typings
 
+# compiled output
+authorization-server/dist
+authorization-server/node_modules
+authorization-server/package-lock.json
+
+# Logs
+authorization-server/logs
+authorization-server/*.log
+authorization-server/npm-debug.log*
+authorization-server/pnpm-debug.log*
+authorization-server/yarn-debug.log*
+authorization-server/yarn-error.log*
+authorization-server/lerna-debug.log*
+
+# Tests
+authorization-server/coverage
+authorization-server/.nyc_output
