@@ -24,6 +24,24 @@ client/libpeerconnection.log
 client/testem.log
 client/typings
 
+resource-server/front/dist
+resource-server/front/tmp
+resource-server/front/out-tsc
+resource-server/front/bazel-out
+resource-server/front/package-lock.json
+
+resource-server/front/node_modules
+resource-server/front/npm-debug.log
+resource-server/front/yarn-error.log
+
+resource-server/front/.angular/cache
+resource-server/front/.sass-cache/
+resource-server/front/connect.lock
+resource-server/front/coverage
+resource-server/front/libpeerconnection.log
+resource-server/front/testem.log
+resource-server/front/typings
+
 # compiled output
 authorization-server/dist
 authorization-server/node_modules
