@@ -5,8 +5,9 @@
 4. [Authorization code flow description](#authorization-code-flow-description)
 5. [Project description](#project-description)
 6. [References and contact](#references-and-contact)
+7. [License](#license)
 
-# OAuth2.0 monorepository system
+## OAuth2.0 monorepository system
 
 **The OAuth 2.0 authorization framework** - is a protocol that allows a user to grant a third-party website or application access to the user's protected resources, without necessarily revealing their long-term credentials or even their identity.
 
@@ -77,11 +78,13 @@ Here is how it looks like on the level of code:
 
 **PS.** All of micro projects can be implemented as API only, front-end is made only for clarity.
 
-### References and contact
+## References and contact
 
 - [OAuth 2.0 Authorization framework documentation by Auth0](https://auth0.com/docs/authenticate/protocols/oauth)
 - [More about OAuth 2.0 by Auth0](https://auth0.com/docs/get-started/authentication-and-authorization-flow/which-oauth-2-0-flow-should-i-use)
 - [Example flow](https://www.oauth.com/oauth2-servers/server-side-apps/example-flow/)
 - Developer contact - [bl4drnnr@protonmail.com](mailto:bl4drnnr@protonmail.com)
+
+## License
 
 Project is [MIT licensed](LICENSE).
