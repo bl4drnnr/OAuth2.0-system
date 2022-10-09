@@ -59,3 +59,21 @@ authorization-server/lerna-debug.log*
 # Tests
 authorization-server/coverage
 authorization-server/.nyc_output
+
+# compiled output
+resource-server/api/dist
+resource-server/api/node_modules
+resource-server/api/package-lock.json
+
+# Logs
+resource-server/api/logs
+resource-server/api/*.log
+resource-server/api/npm-debug.log*
+resource-server/api/pnpm-debug.log*
+resource-server/api/yarn-debug.log*
+resource-server/api/yarn-error.log*
+resource-server/api/lerna-debug.log*
+
+# Tests
+resource-server/api/coverage
+resource-server/api/.nyc_output
